@@ -1,5 +1,6 @@
 # 基本站点信息
-title: My GitHub Page        # 站点标题
-description: Welcome to my website # 站点描述
+title: Yin Han
+SEOTitle: Yin Han | Personal Page
+description: Fighting # 站点描述
 baseurl: ""                  # 如果网站在子目录中，设置子目录路径
 url: "https://apple-yinhan.github.io/yin-han.github.io"  # 你的 GitHub Pages 网址
