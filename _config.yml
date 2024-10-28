@@ -3,17 +3,3 @@ title: My GitHub Page        # 站点标题
 description: Welcome to my website # 站点描述
 baseurl: ""                  # 如果网站在子目录中，设置子目录路径
 url: "https://apple-yinhan.github.io/yin-han.github.io"  # 你的 GitHub Pages 网址
-
-# 主题和样式
-theme: minima                # 使用 Jekyll 的 "minima" 主题
-plugins:                     # 插件
-  - jekyll-feed              # 生成 RSS feed
-
-# 作者信息
-author:
-  name: John Doe
-  email: john@example.com
-
-# 代码高亮
-markdown: kramdown           # 选择 markdown 渲染器
-highlighter: rouge           # 代码高亮插件
