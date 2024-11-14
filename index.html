@@ -113,6 +113,17 @@
             text-decoration: none; /* 去掉下划线 */
         }
     </style>
+    <script>
+    function updateCounter() {
+        fetch("counter.php")
+            .then(response => response.text())
+            .then(count => {
+                document.getElementById("visitorCount").innerText = count;
+            });
+    }
+    window.onload = updateCounter;
+    </script>
+
 </head>
 <body>
     <header>
@@ -206,6 +217,7 @@
         
     </main>
     <footer>
+        <p>Visitors：<span id="visitorCount">0</span></p>
         <p>© Han Yin | Last updata Oct 29th, 2024</p>
     </footer>
 </body>
